@@ -78,7 +78,7 @@
     "WAPRESENCE": {
       "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
       "required": false,
-      "value": "unavailable"
+      "value": "composing"
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
@@ -106,11 +106,11 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": ""
+      "value": "254725084648"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMERzNHFmTEppU3FZS2ZFR3NBRDNySUR6UFFvaDJwVHZscElrcno0cmRGdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYnJIMWFSTCtUVGhheDdMZStTbW5sUkgvbVJ0RTllS1hiRTRUbnNreTVHZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRSTZzNkwzU1JPMGF5N1gvZXhMS1lUNFEyNFcwaUp3dldkbUM0K0toelhvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIxbGlBN2tpL2VnSDhGbHh5YzFOQ0t2UXIzTkNnRUFsUWdPbjRkTFJ1RkJZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFOUTRUY2JzT0tBY3piZkR5WnVpR0FreklSV001eUpSODFGSEIzTURiRU09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdjVkhZUTF0dzluRjNyTTZ0eWZqY1RabTNZM1JpOXdvQmFXKzZzaW5zaG89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNE5wQUx0eldjODJPZ0tNNlVrWHkxWjdCczkvYloyaWJNNmNPRlFIM0JXUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZjNiaDhUT3d6K3dHbEpOZWwxWVg3dm5PSWhNWE10c29ic1FrQ29qVFEyYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9aNzdJR1ZaRm8xZkdTUTRWZERtbW1DcWJOTVNrMzFpajRYcHFTdlVVei9uTmdsb0tpYnJkUTAzeDlVOWV0VXp2TDlHSmN5SzdwR1A2UTFnYUczUERBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjU0LCJhZHZTZWNyZXRLZXkiOiJTQlhaSVJ1eGJlVDZ6djFadjArbWZXRXJHUWZUYWZsTGYrMEFrMXdYZHhVPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1NDcyNTA4NDY0OEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI2RUFCQjcxOERFNjk4OTM2NzYyMzk4RDlBQkZDOEI0RiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzIzMDY0NDQ2fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJOV0JuaE04OVFGQ0s3QjlPNDBUM25BIiwicGhvbmVJZCI6IjYxZjY0MzY0LThhN2YtNDg3Yi05NmU3LTczYTRkZjQ3MzZmOCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTQ3N4YmVSV3d2bElodEpaUU55cmduU0FoTnc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVHJWU05iYS9NK0RDUitIMVZGN0dWSmdKUGxRPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjZUN0w3QzNLIiwibWUiOnsiaWQiOiIyNTQ3MjUwODQ2NDg6MzZAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0p6c3hvZ0ZFTzdBejdVR0dBd2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik1OMkJpZzVqVmRPSFBwOHMycE00UjlsRUhLRWtLR0hCd2NZOTNtUExoQTg9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlpqL2ZMQUt0R2d3L2R1RmVIUVgrNUhOSWtaQUh5bkI3cUZMUVNDNklOa1RpVUVpTm1GcHhhZ3JiL0dqdzYvUWdEZWJUcWhIVFlkREpLNmVraTRIOUNBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJFc2xtcW1RdWg3Sis0cWRqQlhFOTdNcExTb1ZId2tpdFdaUjJIQjBsS0llN0J5WklCODVwTFFOVWFzYklsbWp1VmxiTUZLdysrd25neHFnVGdkN09BQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDcyNTA4NDY0ODozNkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJURGRnWW9PWTFYVGh6NmZMTnFUT0VmWlJCeWhKQ2hod2NIR1BkNWp5NFFQIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIzMDY0NDQzLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUtkRCJ9"
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
